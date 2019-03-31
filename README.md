@@ -12,12 +12,18 @@ Recently, the Bitmain S15 was released.  It was another in a long line of great 
 * Setting the mining pool configuration
 * Changing settings after the fact
 
-With both SSH and cgminer API access on the S9, these changes could be automated.  On the S15 they need to be done by hand, which massively complicates setup.  
+With both SSH and cgminer API access on the S9, these changes could be automated.  On the S15 they need to be done by hand, which massively complicates setup and ongoing administration.    
 
 Additonally, there's been no word from Bitmain as to why these changes were made, only that they are "expected behavior"
 
-# ASICs as Open Platforms
+# The Hack!
 
+Two of our community members have worked hard to restore S9-like functionality to the S15.  They were successful not only in restoring SSH access to the S15, but also changes to settings from the cgminer API.  After a good deal of work, they were able to ensure that the changes to the S15 were persistent.  
+
+But it really shouldn't have to be this way.  When customers purchase ASIC mining devices, they should have access to the full functionality of the device, and all open-source compiled binaries should have their source code published so that users can modify their devices as they see fit.   
+
+
+# ASICs as Open Platforms
 
 
 
