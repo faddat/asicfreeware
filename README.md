@@ -67,4 +67,6 @@ What does all this look like, practically speaking?
 * Miners that update their own software from servers their OWNERS control.
 
 
+Thanks for reading!  
+You can reach me at jacob@droneenergy.com 
 
