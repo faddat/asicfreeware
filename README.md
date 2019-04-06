@@ -51,7 +51,8 @@ The main thing here isn’t software openness, even though Bitmain should certai
 This machine clones SD or MicroSD cards.  It could be easily used to roll out custom software across a mining farm in a timely manner.  
 
 With MicroSD boot enabled by default, it would also be possible for an OWNER of ASICs to create a script that creates images with a range of IP addresses, which get flashed onto a series of labeled MicroSD cards.  This would enhance customization and allow miners to run more secure software, as well as allowing owners to control their miners more effectively.  
-What does all this look like, practically speaking?
+
+## What does all this look like, practically speaking?
 
 * Linux 5.0 on your miner (instead of 2.6)
 * Security benefits
