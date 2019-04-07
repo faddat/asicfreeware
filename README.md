@@ -34,19 +34,17 @@ In this regard, our complaint is really about ownership.  We BUY ASICs, and we w
 Most miners ship with a microSD card slot.  In a more ideal world, that MicroSD card slot would be active by default when there’s a microSD in it, instead of needing to change a number of jumpers on the miner control board.  The Miner could then boot from the SD card any time there’s an SD card in it, and the user could try out various flavors of both open and closed mining OSes.  
 
 
-If this Pi were a miner, it would attempt to boot from the SD Card
+#### If this Pi were a miner, it would attempt to boot from the SD Card
+![withsdcard](withsdcard.png)
 
 
-
-If this Pi were a miner, it would run manufacturer firmware, as there’s no installed SD card
-
+#### If this Pi were a miner, it would run manufacturer firmware, as there’s no installed SD card
+![withoutsdcard](withoutsdcard.png)
 
 
 The main thing here isn’t software openness, even though Bitmain should certainly open its firmware and cgminer implementation.  Instead, the main thing is the openness of the miner as a hardware platform, and the user’s freedom to run whatever software they’d like on the mining machine that they bought with their hard-earned money.  Making the MicroSD card slot function in this manner would also make it easier for large farms to identify individual machines and manage their setup statically.  Additionally, if all machines run the same image, a machine like this one could prove helpful:
 
-
-
-
+![cardduplicator](cardduplicator.png)
 
 This machine clones SD or MicroSD cards.  It could be easily used to roll out custom software across a mining farm in a timely manner.  
 
